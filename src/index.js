@@ -4,14 +4,17 @@ import Routes from 'routes';
 import { BrowserRouter as Router } from 'react-router-dom';
 import TopBar from 'components/topBar';
 import { CurrentUserProvider } from 'contexts/currentUser';
+import CurrentUserChekcer from 'components/currentUserChecker';
 
 const App = () => {
   return (
     <CurrentUserProvider>
-      <Router>
-        <TopBar/>
-        <Routes/>
-      </Router>
+      <CurrentUserChekcer>
+        <Router>
+          <TopBar/>
+          <Routes/>
+        </Router>
+      </CurrentUserChekcer>
     </CurrentUserProvider>
   )
 }
