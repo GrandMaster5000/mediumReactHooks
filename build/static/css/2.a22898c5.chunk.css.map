@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/node_modules/pages/article/index.css"],"names":[],"mappings":"AAAA,iBACI,iBAAkB,CAClB,oBACJ,CACA,sBACI,eACJ","file":"2.a22898c5.chunk.css","sourcesContent":[".article-actions{\r\n    text-align: center;\r\n    margin: 1.5rem 0 3rem;\r\n}\r\n.banner .article-meta {\r\n    margin: 2rem 0 0;\r\n} "]}
